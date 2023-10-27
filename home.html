@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Maniacs</title>
+    <link rel = "icon" href = "gw9.png" type = "image/png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- ---x Fonts x--- -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body oncontextmenu="{return false;}" onload="check()">
+    <nav>
+        <img src="gw2.png" class="logo" width="110px" height="40px"> 
+        <div class="show1" id="shwdiv">
+        <a href="#" id="hist">HOME</a>
+        <a href="#" id="a2">DIET</a>
+        <a href="#" id="a3">PACKAGES</a>
+        <a href="#" id="a4">ABOUT US</a> 
+        <button class="acc_btn" id="sn/lg" onclick="signin()">
+    <img src="acc.png" alt="Account">
+        </button> 
+        </div> 
+    </nav>
+    <div class="fx">
+        <a href="#a2"><img src="fx.png" alt=""></a>
+    </div>
+
+    <div class="bg">
+         <video autoplay loop muted plays-inline class="bgvid">
+            <source src="bg.mp4" type="video/mp4">
+        </video> 
+        <div class="dropdown" id="dropdown">
+            <button onclick="signout()"><p class="signout">Sign out</p></button>
+        </div> 
+        <h5>Welcome to,</h5>
+        <img src="p1.png" class="img">
+        <img src="p2.png" class="img2">
+        <input type="button" value="EXPLORE" onclick="myfunc()" class="exp_btn" />
+        <ion-icon id="dd" name="chevron-down-outline">
+    </div>
+
+    <div class="container">
+        <div class="card1" id="card1">
+            <center><h1>Fit Pass</h1>
+            <h2>HOME</h2>
+            <p class="p1">₹399 / month</p>
+            <p>Unlimited Access to at-home workouts with even Celebrities</p></center>
+        </div>
+        <div class="card2" id="card2">
+            <center><h1>Fit Pass</h1> 
+            <h2>PRO</h2> 
+            <p class="p1">₹899 / month</p>
+            <p>Unlimited Access to all Pro-Gyms and at-home workouts with even Celebrities</p></center>
+        </div>
+        <div class="card3" id="card3">
+            <center><h1>Fit Pass</h1>
+            <h2>ELITE</h2> 
+            <p class="p1">₹1399 / month</p>
+            <p>Unlimited Access to group classes , all gyms and at-home workouts</p></center>
+        </div>
+    </div>
+    <div class="container2">
+        <p id="text2"></p>
+        <p id="text"> One Membership for all <br/> &nbsp &nbsp Your Fitness Needs</p>
+        <div class="c1" id="k1">
+                <img src="pc6.jpg"/>
+        </div>
+        <div class="c2" id="k2">
+            <img src="pc2.jpg"/>
+        </div>
+        <div class="c3" id="k3">
+            <img src="pc3.jpg"/>
+        </div>
+        <div class="c4" id="k4">
+            <img src="pc8.jpg"/>
+        </div>
+        <div class="c5" id="k5">
+            <img src="pc4.jpg"/>
+        </div>
+    </div>
+
+    <div class="container3">
+        <h1 class="trainer" id="trainerid">Fun Classes Led By Professional Trainers</h1>
+        <div class="grid" id="scale">
+        <div>
+            <img src="c1.jpg" alt="">
+        </div>
+        <div>
+            <img src="c2.jpg" alt="">
+        </div>
+        <div>
+            <img src="c3.jpg" alt="">
+        </div>
+        <div>
+            <img src="c4.jpg" alt="">
+        </div>
+        <div>
+            <img src="c5.jpg" alt="">
+        </div>
+        <div>
+            <img src="c6.jpg" alt="">
+        </div>
+        <div>
+            <img src="c7.jpg" alt="">
+        </div>
+        <div>
+            <img src="c8.jpg" alt="">
+        </div>
+    </div></div>
+    </div>
+
+    <div class="slider">
+        <img src="gym0.jpg" alt="GYM" name="image" id="slider1"/>
+    </div>
+
+    <div class="lastdiv">
+        <img src="cmpny.png" alt="" class="src">
+        <div class="about">
+            <p id="aboutus1">At Muscle Maniacs, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, and medical & lifestyle care hassle-free.
+<br>#BeBetterEveryDay</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="div4">
+            <h1 id="foot1">Muscle Maniacs &trade;</h1>
+            <p id="foot2">At Muscle Maniacs, we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, and medical & lifestyle care hassle-free.
+            <br>#BeBetterEveryDay</p>
+            </div>
+            <div class="contactus">
+            <h2 id="contact5">Contact Us</h2>
+            <div class="div5">
+                <button onclick="twitter()">
+                    <img src="twitter.png" alt="">
+                </button>
+                <button onclick="insta()">
+                    <img src="insta.png" alt="">
+                </button>
+                <button onclick="facebook()">
+                    <img src="facebook.png" alt="">
+                </button>
+                <button onclick="yt()">
+                    <img src="yt.png" alt="">
+                </button>
+            </div>
+            <!--  -->
+            </div>
+            <div class="playstore">
+                <button onclick="playstore()"><img src="gplay.jpg" alt=""></button>
+            </div>
+        </div>
+    </footer>
+    <script src="srpt.js"></script>
+</body>
+</html>
+

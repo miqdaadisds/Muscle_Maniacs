@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.formbg{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    width: 360px;
+    height: 420px;
+    position : relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: flex;
+}
+
+.formbg > img {
+    position: absolute;
+    width: 37%;
+    height: 18%;
+    margin-left: 115px;
+    margin-top: -40px;
+    background-color: #213555;
+    border-radius: 10px;
+}
+
+.formbg h1{
+    position: absolute;
+    color: white;
+    font-family: 'Barriecito', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 28%;
+    margin-top: 65px;
+}
+
+.formbg h5{
+    color: white;
+    margin-top: 140px;
+    margin-left: 30px;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+}
+
+.input{
+    color: white;
+    outline: none;
+    border : none;
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    background: transparent;
+    padding: 10px 10px 15px 10px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+    font-family: 'Arvo', serif;
+}
+
+.formbg .form1 > hr{
+    position: absolute;
+    margin-top: 205px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.input2{
+    font-family: 'Arvo', serif;
+    color: white;
+    border : none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    padding: 10px 10px 15px 10px;
+    font-size: 15px;
+    position: absolute;
+    outline: none;
+    margin-top: 244px;
+    margin-left: 30px;
+    
+}
+#pw_icn{
+    color: white;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 300px;
+    z-index: 10; 
+    padding: 0;
+    font-size: 23px;
+}
+
+#pw_icn2{
+    color: white;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 300px;
+    z-index: 10; 
+    font-size: 23px;
+}
+
+.formbg .form1 #btn_1{
+    position: relative;
+    background-color: #213555;
+    color: white;
+    margin-top: 330px;
+    margin-left: 100px;
+    padding: 4px;
+    width: 100%;
+    font-family: 'Arvo', serif;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+#sgn{
+    color: white;
+    position: absolute;
+    top: 93%;
+    left: 25%;
+    font-family: 'Lato', sans-serif;
+}
+
+#sng{
+    color: lightskyblue;
+}
